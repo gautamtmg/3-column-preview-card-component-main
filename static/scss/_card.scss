@@ -2,23 +2,24 @@
     background-color: $veryLightGray;
     margin: 5.5rem 1.625rem;
     
-
-
-    .card:nth-child(1){
+    .card1{
         background-color: $brightOrange;
         border-radius: 10px 10px 0 0 ;
     }
 
-    .card:nth-child(2){
+    .card2{
         background-color: $veryDarkCyan;
     }
-
-    .card:nth-child(3){
+    
+    .card3{
         background-color: $darkCyan;
-        border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
     }
 
+
+
     .card{
+
         
         padding: 48px;
 

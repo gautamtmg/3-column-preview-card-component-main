@@ -59,16 +59,16 @@ button:hover, .button:hover {
   margin: 5.5rem 1.625rem;
 }
 
-.card-container .card:nth-child(1) {
+.card-container .card1 {
   background-color: #e38826;
   border-radius: 10px 10px 0 0;
 }
 
-.card-container .card:nth-child(2) {
+.card-container .card2 {
   background-color: #004241;
 }
 
-.card-container .card:nth-child(3) {
+.card-container .card3 {
   background-color: #006970;
   border-radius: 0 0 10px 10px;
 }
