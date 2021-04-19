@@ -1,0 +1,93 @@
+.card-container{
+    background-color: $veryLightGray;
+    padding: 5.5rem 1.625rem;
+
+    .card:nth-child(1){
+        background-color: $brightOrange;
+        border-radius: 10px 10px 0 0 ;
+    }
+
+    .card:nth-child(2){
+        background-color: $veryDarkCyan;
+    }
+
+    .card:nth-child(3){
+        background-color: $darkCyan;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .card{
+        
+        padding: 48px;
+
+        &__img{
+            margin-bottom: 40px;
+        }
+
+        &__title{
+            font-family: "Big Shoulders Display";
+            font-weight: 700;
+            color: $veryLightGray;
+            text-transform: uppercase;
+        }
+
+        &__description{
+            margin-bottom: 30px;
+            color: $transparentWhite;
+        }
+    }
+
+    
+}
+
+@media only screen and (min-width: 400px){
+    .card-container{
+        display: flex;
+        height: 100vh;
+        padding: 230px 345px;
+
+        .card:nth-child(1){
+        
+            border-radius: 10px 0px 0 10px ;
+        }
+
+    
+
+        .card:nth-child(3){
+            
+            border-radius: 0 10px 10px 0px;
+        }
+
+        .card{
+            padding: 65px;
+        
+
+        &__img{
+            margin-bottom: 55px;
+            img{
+                height: 55px;
+            }
+        }
+
+        &__title{
+            margin-bottom: 55px;
+            font-size: 55px;
+            
+        }
+
+        &__description{
+            margin-bottom: 120px;
+            width: 80%;
+            font-size: 32px;
+        }
+    }
+
+    
+}
+
+button, .button{
+    padding: 28px 40px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+}
+}
