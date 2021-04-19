@@ -1,6 +1,8 @@
 .card-container{
     background-color: $veryLightGray;
-    padding: 5.5rem 1.625rem;
+    margin: 5.5rem 1.625rem;
+    
+
 
     .card:nth-child(1){
         background-color: $brightOrange;
@@ -36,58 +38,57 @@
             color: $transparentWhite;
         }
     }
-
     
-}
+@media only screen and (min-width: 500px){
+   
+    display: flex;
+    margin: 230px 345px;
 
-@media only screen and (min-width: 400px){
-    .card-container{
-        display: flex;
-        height: 100vh;
-        padding: 230px 345px;
+    .card:nth-child(1){
+    
+        border-radius: 10px 0px 0 10px ;
+    }
 
-        .card:nth-child(1){
+
+
+    .card:nth-child(3){
         
-            border-radius: 10px 0px 0 10px ;
-        }
+        border-radius: 0 10px 10px 0px;
+    }
 
+    .card{
+        padding: 65px;
     
 
-        .card:nth-child(3){
-            
-            border-radius: 0 10px 10px 0px;
-        }
-
-        .card{
-            padding: 65px;
-        
-
-        &__img{
-            margin-bottom: 55px;
-            img{
-                height: 55px;
-            }
-        }
-
-        &__title{
-            margin-bottom: 55px;
-            font-size: 55px;
-            
-        }
-
-        &__description{
-            margin-bottom: 70px;
-            width: 80%;
-            font-size: 32px;
+    &__img{
+        margin-bottom: 55px;
+        img{
+            height: 55px;
         }
     }
 
-    
+    &__title{
+        margin-bottom: 55px;
+        font-size: 55px;
+        
+    }
+
+    &__description{
+        margin-bottom: 70px;
+        // width: 80%;
+        font-size: 31px;
+    }
 }
+
+
 
 button, .button{
     padding: 28px 40px;
     border-radius: 40px;
     font-size: 1.5rem;
 }
+}
+
+
+    
 }
